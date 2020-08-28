@@ -1,2 +1,5 @@
 [core]
     analytics = false
+    remote = helo_remote
+['remote "helo_remote"']
+    url = /home/local/ZOHOCORP/guru-6939/demo_dvc_remote
