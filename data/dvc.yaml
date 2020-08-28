@@ -1,0 +1,8 @@
+stages:
+  printer:
+    cmd: python echo.py ip.txt op.txt
+    deps:
+    - echo.py
+    - ip.txt
+    outs:
+    - op.txt

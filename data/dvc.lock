@@ -1,0 +1,10 @@
+printer:
+  cmd: python echo.py ip.txt op.txt
+  deps:
+  - path: echo.py
+    md5: 6146a25ca65eeda2548d6ae056bbc760
+  - path: ip.txt
+    md5: 33a15ff3237ac6f27b0eb476b070253c
+  outs:
+  - path: op.txt
+    md5: 33a15ff3237ac6f27b0eb476b070253c
